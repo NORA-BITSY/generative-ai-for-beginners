@@ -28,6 +28,20 @@ For .NET Developers checkout [Generative AI for Beginners (.NET Edition)](https:
 
 Each lesson also includes a "Keep Learning" section with additional learning tools.
 
+## Deployment as a Webapp on Your Website
+
+To serve and host this course as a web application, follow these steps:
+
+1. Install dependencies and build the static site:
+   ```bash
+   npm install
+   npm run build
+   ```
+2. Deploy the contents of the build/output directory to your hosting provider:
+   - Use platforms such as GitHub Pages, Netlify, Vercel, or your own server.
+3. Configure your domain and DNS settings as per your hosting provider’s guidelines.
+4. For continuous integration and deployment, set up your CI/CD pipeline (e.g., using GitHub Actions).
+
 ## What You Need
 ### To run the code of this course, you can use either: 
  - [Azure OpenAI Service](https://aka.ms/genai-beginners/azure-open-ai?WT.mc_id=academic-105485-koreyst) - **Lessons:** "aoai-assignment"
